@@ -12,25 +12,41 @@
                         font-family: 'JetBrains Mono', monospace;
                         font-size: 16px;
                     }
+                    .group {
+                        width: 100%;
+                        table-layout: fixed;  
+                    }
                     .group td {
                         border-radius: 4px;
                         padding: 16px;
-                        text-align: center;
-                        width: 100%;
+                        text-align: center;   
                     }
-                    .group td:nth-child(6) {
-                        width: 50%;
+                    .group td:nth-child(1) { 
+                        width: 12%; 
+                    }  
+                    .group td:nth-child(2) { 
+                        width: 4%; 
+                    }  
+                    .group td:nth-child(3) { 
+                        width: 8%; 
+                    }  
+                    .group td:nth-child(4) { 
+                        width: 8%; 
+                    }  
+                    .group td:nth-child(5) { 
+                        width: 8%; 
+                    }
+                    .group td:nth-child(6) { 
+                        width: 60%; 
                     }
                     .group tr:first-child {
                         background-color: darkslateblue;
-                        table-layout: fixed;
                     }
                     .group tr:not(:first-child) {
                         background-color: white;
                         color: darkslateblue;
-                        table-layout: fixed;
                     }
-                    summary {
+                    summary { 
                         cursor: pointer; 
                     }
                 </style>
